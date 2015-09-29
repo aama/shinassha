@@ -1,6 +1,9 @@
 {
 :lang :shinassha
 :sgpref "shn"
+:datasource "Lamberti1993b"
+:geodemoURL "http://www.ethnologue.com/language/bwo"
+:geodemoTXT "Varieties and subdialects of the Omotic language Shinassha are spoken in"
 :schemata {
 :case [:Ablative, :Benefactive, :Comitative, :Dative, :Directive, :Locative]
 	  :complement [:Compound, :Simple]
