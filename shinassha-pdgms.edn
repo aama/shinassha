@@ -952,7 +952,7 @@
 	    :pos :Verb,
 	    :tam :AoristHabitual,
 	    :morphClass :Interrogative}
-    :terms [[:gender, :number, :person, :token, :token-aux]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-aux]  ;; schema
 	    [:Common, :Singular, :Person1, "àm-áá-k-ə̀", "táá-né ~ táá-nè-yáneg"],
 	    [:Masc, :Singular, :Person3, "àm-áá-k-", "é ~ è-yá"],
 	    [:Fem, :Singular, :Person3, "àm-áá-k-", "né ~ nè-yá"],
@@ -1299,7 +1299,7 @@
 	    :polarity :Negative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux :_NULL,
+	    :token-note-aux "0",
 	    :morphClass :Interrogative}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "àmààl-tá-né"],
@@ -1428,7 +1428,7 @@
 	    :polarity :Affirmative,
 	    :pos :Verb,
 	    :tam :Jussive,
-	    :token-aux :_NULL,
+	    :token-note-aux "0",
 	    :morphClass :Interrogative}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "àm-tá"],
@@ -2802,12 +2802,12 @@
     :common {:morpheme :VINFLCLASS,
 	    :pos :Verb,
 	    :morphClass :InflClass}
-    :terms [[:conjClass, :token-note, :token-stemVowel, :token]  ;; schema
-	    [:Conj1, "characterized by consonant gradations between indicative stem and imperative stem", "-Ø- ~ -ə- ~ -e-", "-Ø- ~ -ə- ~ -e-  :  characterized by consonant gradations between indicative stem and imperative stem"],
-	    [:Conj2, "_NULL", "-Ø- ~ -ə- ~ -i-", "-Ø- ~ -ə- ~ -i-  :  _NULL"],
-	    [:Conj3, "_NULL", "-e- ~ -i-", "-e- ~ -i-  :  _NULL"],
-	    [:Conj4, "causative verbs", "-iy-", "-iy-  :  causative verbs"],
-	    [:Conj5, "passive verbs", "-ey-", "-ey-  :  passive verbs"]]
+    :terms [[:conjClass, :token-note, :token]  ;; schema
+	    [:Conj1, "characterized by consonant gradations between indicative stem and imperative stem + -Ø- ~ -ə- ~ -e-", "-Ø- ~ -ə- ~ -e-  :  characterized by consonant gradations between indicative stem and imperative stem"],
+	    [:Conj2, "__ + -Ø- ~ -ə- ~ -i-", "-Ø- ~ -ə- ~ -i-  :  __"],
+	    [:Conj3, "__ + -e- ~ -i-", "-e- ~ -i-  :  __"],
+	    [:Conj4, "causative verbs + -iy-", "-iy-  :  causative verbs"],
+	    [:Conj5, "passive verbs + -ey-", "-ey-  :  passive verbs"]]
     }
     {:label "shinassha-VDervStem"
     :note "Lamberti1993b pp. 126-136."
