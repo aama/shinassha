@@ -2586,9 +2586,10 @@
             [:Singular :Person1 :Common "fá-è"],
             [:Singular :Person2 :Common "fá-ì"],
             [:Singular :Person3 :Masc "fá-é"],
-            [:Singular :Person3 :Fem "fá-à"],
+            [:Singular :Person3 :Fem "fá-è"],
             [:Plural :Person1 :Common "fá-ò"],
-            [:Plural :Person2 :Common "fá-ə́tpres"]]
+            [:Plural :Person2 :Common "fá-át"]
+            [:Plural :Person3 :Common "fá-ánnó"]
     }
 ]
 :muterms [
