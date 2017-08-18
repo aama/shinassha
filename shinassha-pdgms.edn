@@ -2589,7 +2589,7 @@
             [:Singular :Person3 :Fem "fá-è"],
             [:Plural :Person1 :Common "fá-ò"],
             [:Plural :Person2 :Common "fá-át"]
-            [:Plural :Person3 :Common "fá-ánnó"]
+            [:Plural :Person3 :Common "fá-ánnó"]]
     }
 ]
 :muterms [
