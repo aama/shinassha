@@ -5,21 +5,23 @@
 :datasource "Lamberti1993b"
 :geodemoURL "http://www.ethnologue.com/language/bwo"
 :geodemoTXT "Varieties and subdialects of the Omotic language Shinassha are spoken in Ethiopia, 'Benishangul-Gumuz region: Metekel zone, near Blue Nile river'; approx 37,500 speakers."
-:schemata{:gender [:Common :Fem :Masc],
-          :polarity [:Affirmative :Negative],
-          :case [:Ablative :Benefactive :Comitative :Dative :Directive :Locative],
-          :conjClass [:Conj1 :Conj2 :Conj3 :Conj4 :Conj5],
-          :pdgmType [:Copula :Infinitive :Stem :SubjSuff :DervStem :Existence :Finite :InfinitiveInflect :NA :InflClass :InterrSubjMarker :SubjSuffInterr :Interrogative]
-          :pos [:Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:Benefactive :Causative :Completative :Iterative],
-          :morphClass [:Copula :DervStem :Existence :InflClass :InterrSubjMarker :Infinitive :Interrogative :Monorad :Stem :SubjSuff :SubjSuffInterr],
-          :proClass [:IndepCase :Independent :PossAdj :PossNoun :Subject],
-          :mood [:Command :Conditional :ConjMood :Desiderative :Gerund :Indicative :InfinitiveInflect :Irrealis :Jussive :Potential :Relative :Subjunctive],
-          :tam [:Aorist :AoristHabitual :AoristIngressive :AoristProgressive :AoristPunctual :Conditional :ConjTns :Future :FuturePerfect :FutureProgressive :FuturePunctual :Habitual :Imperative :ImperfectFuture :ImperfectPresent :ImperfectPreterite :Jussive :PerfectFuture :PerfectPresent :PerfectPreterite :Pluperfect :Present :PresentIngressiveA :PresentIngressiveB :PresentProgressive :Preterite :PreteriteDubitative :PreteriteEgressive :PreteriteIngressive :PreteritePerfect :PreteritePerfectB :Progressive],
-          :number [:Plural :Singular],
-          :vClass [:Aux],
-          :complement [:Compound :Simple]}
+:toDo "Combine 'pdgms' for Stem, Imperative,Infinitive. "
+ :schemata {:pdgmSubClass [:Existence :Interrogative :Copula],
+            :stemClass [:Monorad],
+            :case [:Ablative :Benefactive :Comitative :Dative :Directive :Locative],
+            :complement [:Compound :Simple],
+            :conjClass [:Conj1 :Conj2 :Conj3 :Conj4 :Conj5],
+            :derivedStem [:Benefactive :Causative :Completative :Iterative],
+            :gender [:Common :Fem :Masc],
+            :mood [:Command :Conditional :ConjMood :Desiderative :Gerund :Indicative :Irrealis :Jussive :Potential :Relative :Subjunctive],
+            :morphClass [:Infinitive],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:IndepCase :Independent :PossAdj :PossNoun :Subject],
+            :tam [:Aorist :AoristHabitual :AoristIngressive :AoristProgressive :AoristPunctual :Conditional :ConjTns :Future :FuturePerfect :FutureProgressive :FuturePunctual :Habitual :Imperative :ImperfectFuture :ImperfectPresent :ImperfectPreterite :Jussive :PerfectFuture :PerfectPresent :PerfectPreterite :Pluperfect :Present :PresentIngressiveA :PresentIngressiveB :PresentProgressive :Preterite :PreteriteDubitative :PreteriteEgressive :PreteriteIngressive :PreteritePerfect :PreteritePerfectB :Progressive]
+            :pdgmType [:CopulaNegPres :DervStem :Finite :FiniteCopula :FiniteExistence :FiniteInterrogative :IMPERATIVESUFF :Infinitive :InfinitiveInflect :InflClass :InterrSubjMarker :PRO :Stem :SubjSuff :SubjSuffInterr]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :complement :derivedStem :mode :polarity :pos :proClass :tam :vClass],
           :inflClass [:conjClass],
@@ -120,16 +122,16 @@
     {:label "shinassha-VAffCommandJussInterrogative-am"
     :note "Lamberti1993b p.200-202. Interrogative forms are made by substituting the
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
-            formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
-            neg,and the neg aorHab"
-    :pdgmType :Interrogative
+            formed) non-iterrogative form. Special mention need be made only for the Jussive, 
+            aff and neg,and the neg aorHab"
+    :pdgmType :FiniteInterrogative
     :common {:lexeme :am,
              :mood :Command,
              :polarity :Affirmative,
              :pos :Verb,
              :tam :Jussive,
              :token-note-aux "0",
-             :morphClass :Interrogative}
+             :pdgmSubClass :Interrogative}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "àm-tá"],
             [:Singular :Person2 :Common "àmè-né"],
@@ -466,7 +468,6 @@
     :pdgmType :InfinitiveInflect
     :common {:gender :Common,
              :lexeme :maa,
-             :morphClass :InfinitiveInflect,
              :polarity :Affirmative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -480,7 +481,6 @@
     :pdgmType :Infinitive
     :common {:gender :Common,
              :lexeme :maa,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -494,7 +494,6 @@
     :pdgmType :Infinitive
     :common {:gender :Common,
              :lexeme :waa,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -806,7 +805,7 @@
              :pos :Verb,
              :tam :PreteriteIngressive}
     :terms [[:number :person :gender :token],
-            [:Singulare :Person1 :Common "' àmó, tì-jàmmàr"],
+            [:Singular :Person1 :Common "' àmó, tì-jàmmàr"],
             [:Singular :Person2 :Common "' àmó, ní-jàmmàr"],
             [:Singular :Person3 :Masc "' àmó, bí́-jàmmàr"],
             [:Singular :Person3 :Fem "' àmó, bì̀-jàmmàr"],
@@ -1549,7 +1548,6 @@
              :conjClass :Conj1,
              :gender :Common,
              :lexeme :am,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -1562,8 +1560,7 @@
              :conjClass :Conj1,
              :gender :Common,
              :lexeme :woott,
-             :morphClass :Infinitive,
-             :polarity :Affirmative,
+            :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
             ["wots-ó"]]
@@ -1845,7 +1842,6 @@
              :conjClass :Conj1,
              :gender :Common,
              :lexeme :am,
-             :morphClass :Infinitive,
              :polarity :Negative,
              :pos :Verb}
     :terms [[:token],
@@ -2033,7 +2029,6 @@
     :common {:conjClass :Conj2,
              :gender :Common,
              :lexeme :tuw,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2154,7 +2149,6 @@
     :common {:conjClass :Conj3,
              :gender :Common,
              :lexeme :massh,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2166,7 +2160,6 @@
     :common {:conjClass :Conj3,
              :gender :Common,
              :lexeme :tool,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2290,7 +2283,6 @@
     :common {:conjClass :Conj4,
              :gender :Common,
              :lexeme :aaniy,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2302,7 +2294,6 @@
     :common {:conjClass :Conj4,
              :gender :Common,
              :lexeme :baziy,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2410,7 +2401,6 @@
     :common {:conjClass :Conj5,
              :gender :Common,
              :lexeme :bey,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2422,7 +2412,6 @@
     :common {:conjClass :Conj5,
              :gender :Common,
              :lexeme :tippey,
-             :morphClass :Infinitive,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:token],
@@ -2448,11 +2437,11 @@
     }
     {:label "shinassha-VConjExist-fa"
     :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have only two tenses"
-    :pdgmType :Existence
+    :pdgmType :FiniteExistence
     :common {:lexeme :fa,
              :pos :Verb,
              :tam :ConjTns,
-             :morphClass :Existence}
+             :pdgmSubClass :Existence}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "tə̀-fá-ò"],
             [:Singular :Person2 :Common "tə́-fá-ò"],
@@ -2467,14 +2456,14 @@
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
             formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
             neg,and the neg aorHab"
-    :pdgmType :Interrogative
+    :pdgmType :FiniteInterrogative
     :common {:lexeme :am,
              :mood :Command,
              :polarity :Negative,
              :pos :Verb,
              :tam :Jussive,
              :token-note-aux "0",
-             :morphClass :Interrogative}
+             :pdgmSubClass :Interrogative}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "àmààl-tá-né"],
             [:Singular :Person2 :Common "àmààl-né-né"],
@@ -2489,13 +2478,13 @@
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
             formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
             neg,and the neg aorHab"
-    :pdgmType :Interrogative
+    :pdgmType :FiniteInterrogative
     :common {:lexeme :am,
              :mood :Indicative,
              :polarity :Negative,
              :pos :Verb,
              :tam :AoristHabitual,
-             :morphClass :Interrogative}
+             :pdgmSubClass :Interrogative}
     :terms [[:number :person :gender :token :token-note-aux],
             [:Singular :Person1 :Common "àm-áá-k-ə̀" "táá-né ~ táá-nè-yáneg"],
             [:Singular :Person3 :Masc "àm-áá-k-" "é ~ è-yá"],
@@ -2511,7 +2500,6 @@
     :pdgmType :Stem
     :common {:gender :Common,
              :lexeme :bey,
-             :morphClass :Stem,
              :polarity :Negative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -2525,7 +2513,6 @@
     :pdgmType :Stem
     :common {:gender :Common,
              :lexeme :gey,
-             :morphClass :Stem,
              :polarity :Negative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -2539,7 +2526,6 @@
     :pdgmType :Stem
     :common {:gender :Common,
              :lexeme :keew,
-             :morphClass :Stem,
              :polarity :Negative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -2553,7 +2539,6 @@
     :pdgmType :Stem
     :common {:gender :Common,
              :lexeme :maa,
-             :morphClass :Stem,
              :polarity :Negative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -2567,7 +2552,6 @@
     :pdgmType :Stem
     :common {:gender :Common,
              :lexeme :waa,
-             :morphClass :Stem,
              :polarity :Negative,
              :pos :Verb,
              :stemClass :Monorad}
@@ -2577,11 +2561,11 @@
     {:label "shinassha-VPresExist-fa"
     :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have
             only two tenses"
-    :pdgmType :Existence
+    :pdgmType :FiniteExistence
     :common {:lexeme :fa,
              :pos :Verb,
              :tam :Present,
-             :morphClass :Existence}
+             :pdgmSubClass :Existence}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "fá-è"],
             [:Singular :Person2 :Common "fá-ì"],
@@ -2595,9 +2579,8 @@
 :muterms [
     {:label "shinassha-PIndep"
     :note "Lamberti1993b pp. 88f"
-    :pdgmType :NA
-    :common {:morpheme :PROIND,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "tá"],
@@ -2610,9 +2593,8 @@
     }
     {:label "shinassha-PIndepCase"
     :note "Lamberti1993b pp. 89-90"
-    :pdgmType :NA
-    :common {:morpheme :PROINDEPCASE,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :IndepCase}
     :terms [[:case :number :person :gender :token],
             [:Ablative :Singular :Person1 :Common "tiyoke"],
@@ -2658,9 +2640,8 @@
     }
     {:label "shinassha-PPossAdj"
     :note "Lamberti1993b p. 82"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSADJ,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossAdj}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "tə̀"],
@@ -2673,9 +2654,8 @@
     }
     {:label "shinassha-PPossNoun"
     :note "Lamberti1993b p. 83"
-    :pdgmType :NA
-    :common {:morpheme :PROPOSSNOUN,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :PossNoun}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "tì-kká"],
@@ -2688,9 +2668,8 @@
     }
     {:label "shinassha-PSubj"
     :note "Lamberti1993b p. 92"
-    :pdgmType :NA
-    :common {:morpheme :SUBJMARKERPREF,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Subject}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "tə̀-"],
@@ -2705,12 +2684,11 @@
     :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
             come from ja-,future/jussive from woott-. In some cases adjectives can be directly
             conjugated like verbs. Cf. also paradigm for fa- éxist."
-    :pdgmType :Copula
-    :common {:morpheme :COPULAAFFPRES,
-             :polarity :Affirmative,
+    :pdgmType :FiniteCopula
+    :common {:polarity :Affirmative,
              :pos :Verb,
              :tam :Present,
-             :morphClass :Copula}
+             :pdgmSubClass :Copula}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "táá-nà"],
             [:Singular :Person2 :Common "néé-nà"],
@@ -2722,9 +2700,8 @@
     }
     {:label "shinassha-VConj1SmplAffCommandImprtv-stem"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :Finite
+    :pdgmType :IMPERATIVESUFF
     :common {:gender :Common,
-             :morpheme :IMPERATIVESUFF,
              :polarity :Affirmative,
              :conjClass :Conj1,
              :pos :Verb,
@@ -2738,9 +2715,8 @@
     }
     {:label "shinassha-VConj1SmplNegCommandImprtv-stem"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :Finite
+    :pdgmType :IMPERATIVESUFF
     :common {:gender :Common,
-             :morpheme :IMPERATIVESUFF,
              :polarity :Negative,
              :conjClass :Conj1,
              :pos :Verb,
@@ -2754,10 +2730,9 @@
     }
     {:label "shinassha-VConj2AffCommandImprtv-stem2"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :Finite
+    :pdgmType :IMPERATIVESUFF,
     :common {:conjClass :Conj2,
              :gender :Common,
-             :morpheme :IMPERATIVESUFF,
              :mood :Command,
              :person :Person2,
              :polarity :Affirmative,
@@ -2769,10 +2744,9 @@
     }
     {:label "shinassha-VConj3AffCommandImprtv-stem3"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :Finite
+    :pdgmType :IMPERATIVESUFF
     :common {:conjClass :Conj3,
              :gender :Common,
-             :morpheme :IMPERATIVESUFF,
              :mood :Command,
              :person :Person2,
              :polarity :Affirmative,
@@ -2784,10 +2758,9 @@
     }
     {:label "shinassha-VConj4AffCommandImprtv-stem4"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :Finite
+    :pdgmType :IMPERATIVESUFF
     :common {:conjClass :Conj4,
              :gender :Common,
-             :morpheme :IMPERATIVESUFF,
              :mood :Command,
              :person :Person2,
              :polarity :Affirmative,
@@ -2799,10 +2772,9 @@
     }
     {:label "shinassha-VConj5AffCommandImprtv-stem5"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :Finite
+    :pdgmType :IMPERATIVESUFF
     :common {:conjClass :Conj5,
              :gender :Common,
-             :morpheme :IMPERATIVESUFF,
              :mood :Command,
              :person :Person2,
              :polarity :Affirmative,
@@ -2815,9 +2787,7 @@
     {:label "shinassha-VDervStem"
     :note "Lamberti1993b pp. 126-136."
     :pdgmType :DervStem
-    :common {:morpheme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStem}
+    :common {:pos :Verb}
     :terms [[:derivedStem :token],
             [:Benefactive "Verb + dek-"],
             [:Causative "-iy- ~ -ish- ~ -z- ~ -ts-passive"],
@@ -2827,11 +2797,9 @@
     {:label "shinassha-VInflClass"
     :note "Lamberti1993b pp. 136. -138"
     :pdgmType :InflClass
-    :common {:morpheme :VINFLCLASS,
-             :pos :Verb,
-             :morphClass :InflClass}
+    :common {:pos :Verb}
     :terms [[:conjClass :token :token-note],
-            [:Conj1 "-Ø- ~ -ə- ~ -e-  :  characterized by consonant gradations between indicative stem and imperative stem" "characterized by consonant gradations between indicative stem and imperative stem + -Ø- ~ -ə- ~ -e-"],
+            [:Conj1 "-Ø- ~ -ə- ~ -e-" " characterized by consonant gradations between indicative stem and imperative stem" "characterized by consonant gradations between indicative stem and imperative stem + -Ø- ~ -ə- ~ -e-"],
             [:Conj2 "-Ø- ~ -ə- ~ -i-  :  __" "__ + -Ø- ~ -ə- ~ -i-"],
             [:Conj3 "-e- ~ -i-  :  __" "__ + -e- ~ -i-"],
             [:Conj4 "-iy-  :  causative verbs" "causative verbs + -iy-"],
@@ -2843,9 +2811,7 @@
             formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
             neg,and the neg aorHab"
     :pdgmType :InterrSubjMarker
-    :common {:morpheme :SUBJMARKERINTERR2,
-             :pos :Verb,
-             :morphClass :InterrSubjMarker}
+    :common {:pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-tá(á)"],
             [:Singular :Person2 :Common "-yá"],
@@ -2859,12 +2825,10 @@
     :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
             come from ja-,future/jussive from woott-. In some cases adjectives can be directly
             conjugated like verbs. Cf. also paradigm for fa- éxist."
-    :pdgmType :Copula
-    :common {:morpheme :COPULANEGPRES,
-             :polarity :Negative,
+    :pdgmType :CopulaNegPres
+    :common {:polarity :Negative,
              :pos :Verb,
-             :tam :Present,
-             :morphClass :Copula}
+             :tam :Present}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "táá-n-ààlí"],
             [:Singular :Person2 :Common "néé-n-ààlí"],
@@ -2877,9 +2841,7 @@
     {:label "shinassha-VSubjSuff"
     :note "Lamberti1993b pp. 93f"
     :pdgmType :SubjSuff
-    :common {:morpheme :SUBJMARKER,
-             :pos :Verb,
-             :morphClass :SubjSuff}
+    :common {:pos :Verb}
     :terms [[:mood :number :person :gender :token],
             [:Indicative :Singular :Person1 :Common "⊤"],
             [:Indicative :Singular :Person2 :Common "⊤"],
@@ -2899,9 +2861,7 @@
     {:label "shinassha-VSubjSuffInterr"
     :note "Lamberti1993b pp. 95f"
     :pdgmType :SubjSuffInterr
-    :common {:morpheme :SUBJMARKERINTERRSUFF,
-             :pos :Verb,
-             :morphClass :SubjSuffInterr}
+    :common {:pos :Verb}
     :terms [[:mood :number :person :gender :token],
             [:Indicative :Singular :Person1 :Common "-tá(á)"],
             [:Indicative :Singular :Person2 :Common "-yá"],
