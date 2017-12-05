@@ -6,22 +6,22 @@
 :geodemoURL "http://www.ethnologue.com/language/bwo"
 :geodemoTXT "Varieties and subdialects of the Omotic language Shinassha are spoken in Ethiopia, 'Benishangul-Gumuz region: Metekel zone, near Blue Nile river'; approx 37,500 speakers."
 :toDo "Combine 'pdgms' for Stem, Imperative,Infinitive. "
- :schemata {:pdgmSubClass [:Existence :Interrogative :Copula],
-            :stemClass [:Monorad],
+ :schemata {:vmorphClass [:DervStem  :Infinitive :InfinitiveInflect :InflClass :InterrSubjMarker :SubjSuff :SubjSuffInterr :IMPERATIVESUFF1 :IMPERATIVESUFF2 :IMPERATIVESUFF3 :IMPERATIVESUFF4 :IMPERATIVESUFF5 :InfinitiveMonoRad :InfinitiveSimple :VNegStem :VStemGerund :VStemIndic],
             :case [:Ablative :Benefactive :Comitative :Dative :Directive :Locative],
             :complement [:Compound :Simple],
             :conjClass [:Conj1 :Conj2 :Conj3 :Conj4 :Conj5],
             :derivedStem [:Benefactive :Causative :Completative :Iterative],
             :gender [:Common :Fem :Masc],
             :mood [:Command :Conditional :ConjMood :Desiderative :Gerund :Indicative :Irrealis :Jussive :Potential :Relative :Subjunctive],
-            :morphClass [:Infinitive],
             :number [:Plural :Singular],
+            :pdgmSubClass [:Copula :Existence :Interrogative],
             :person [:Person1 :Person2 :Person3],
             :polarity [:Affirmative :Negative],
             :pos [:Pronoun :Verb],
             :proClass [:IndepCase :Independent :PossAdj :PossNoun :Subject],
+            :stemClass [:Monorad],
             :tam [:Aorist :AoristHabitual :AoristIngressive :AoristProgressive :AoristPunctual :Conditional :ConjTns :Future :FuturePerfect :FutureProgressive :FuturePunctual :Habitual :Imperative :ImperfectFuture :ImperfectPresent :ImperfectPreterite :Jussive :PerfectFuture :PerfectPresent :PerfectPreterite :Pluperfect :Present :PresentIngressiveA :PresentIngressiveB :PresentProgressive :Preterite :PreteriteDubitative :PreteriteEgressive :PreteriteIngressive :PreteritePerfect :PreteritePerfectB :Progressive]
-            :pdgmType [:CopulaNegPres :DervStem :Finite :FiniteCopula :FiniteExistence :FiniteInterrogative :IMPERATIVESUFF :Infinitive :InfinitiveInflect :InflClass :InterrSubjMarker :PRO :Stem :SubjSuff :SubjSuffInterr]}
+            :pdgmType [:Finite :FiniteCopula :FiniteExistence :FiniteInterrogative :PRO :FiniteCopulaNegPres :VOther]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :complement :derivedStem :mode :polarity :pos :proClass :tam :vClass],
           :inflClass [:conjClass],
@@ -215,258 +215,51 @@
             [:Plural :Person2 :Common "ít-wàà"],
             [:Plural :Person3 :Common "bó-wàà"]]
     }
-    {:label "shinassha-VAffGerundImperfFutMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :lexeme :maa,
-             :mood :Gerund,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :ImperfectFuture,
-             :stemClass :Monorad}
-    :terms [[:token :token-note-aux],
-            ["maa féérə̀" "féérə̀"]]
-    }
-    {:label "shinassha-VAffGerundImperfFutMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :lexeme :waa,
-             :mood :Gerund,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :ImperfectFuture,
-             :token "waa",
-             :stemClass :Monorad}
-    :terms [[:token :token-note-aux],
-            ["waa féérə̀" "féérə̀"]]
-    }
-    {:label "shinassha-VAffGerundImperfPretMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :maa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Gerund,
-             :tam :ImperfectPreterite,
-             :number :Singular}
-    :terms [[:token :token-note-aux],
-            ["maa féétts-àátə̀" "féétts-àátə̀"]]
-    }
-    {:label "shinassha-VAffGerundImperfPretMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :waa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Gerund,
-             :tam :ImperfectPreterite,
-             :number :Singular}
-    :terms [[:token :token-note-aux],
-            ["waa féétts-àátə̀" "féétts-àátə̀"]]
-    }
-    {:label "shinassha-VAffGerundPerfFutMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :lexeme :maa,
-             :mood :Gerund,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :PerfectFuture,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["màà-rə̀"]]
-    }
-    {:label "shinassha-VAffGerundPerfFutMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Common,
-             :lexeme :waa,
-             :mood :Gerund,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :tam :PerfectFuture,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["wàà-rə̀"]]
-    }
-    {:label "shinassha-VAffGerundPerfPretMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :maa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Gerund,
-             :tam :PerfectPreterite,
-             :number :Singular}
-    :terms [[:token],
-            ["màà-tə́̀̀"]]
-    }
-    {:label "shinassha-VAffGerundPerfPretMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :waa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Gerund,
-             :tam :PerfectPreterite,
-             :number :Singular}
-    :terms [[:token],
-            ["wàà-tə́̀̀"]]
-    }
+    {:label "shinassha-VAffGerundImperfFutMonorad"
+     :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative they inflect regularly on the basis of a special negative stem ."
+     :pdgmType :VOther
+     :common {:vmorphClass :VStemGerund
+              :mood :Gerund,
+              :polarity :Affirmative,
+              :pos :Verb,
+              :number :Singular
+              :person :Person3,
+              :gender :Masc,
+              :stemClass :Monorad}
+     :terms [[:lexeme :tam :token :token-note-aux],
+             [:maa :ImperfectFuture :maa "maa féérə̀" "féérə̀"]
+             [:waa :ImperfectFuture "waa féérə̀" "féérə̀"]
+             [:maa :ImperfectPreterite "maa féétts-àátə̀" "féétts-àátə̀"]
+             [:waa :ImperfectPreterite "waa féétts-àátə̀" "féétts-àátə̀"]
+             [:maa :PerfectFuture "màà-rə̀" ""]
+             [:waa :PerfectFuture "wàà-rə̀" ""]
+             [:maa :PerfectPreterite "màà-tə́̀̀" ""]
+             [:waa :PerfectPreterite "wàà-tə́̀̀ """]]
+     }
     {:label "shinassha-VAffIndicAorHabMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :maa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :AoristHabitual,
-             :number :Singular}
-    :terms [[:token],
-            ["màà-f-é"]]
-    }
-    {:label "shinassha-VAffIndicAorHabMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :waa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :AoristHabitual,
-             :number :Singular}
-    :terms [[:token],
-            ["wàà-f-é"]]
-    }
-    {:label "shinassha-VAffIndicFutProgrMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :maa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :FutureProgressive,
-             :number :Singular}
-    :terms [[:token :token-note-aux],
-            ["màà bə́-mèýrə̀" "bə́-mèýrə̀"]]
-    }
-    {:label "shinassha-VAffIndicFutProgrMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :waa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :FutureProgressive,
-             :number :Singular}
-    :terms [[:token :token-note-aux],
-            ["wàà bə́-wèýrə̀" "bə́-wèýrə̀"]]
-    }
-    {:label "shinassha-VAffIndicFutPunctMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :maa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :FuturePunctual,
-             :number :Singular}
-    :terms [[:token],
-            ["mè-é-ttùw-é"]]
-    }
-    {:label "shinassha-VAffIndicFutPunctMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :waa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :FuturePunctual,
-             :number :Singular}
-    :terms [[:token],
-            ["wè-é-ttùw-é"]]
-    }
-    {:label "shinassha-VAffIndicPretPerfMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Finite
-    :common {:gender :Masc,
-             :stemClass :Monorad,
-             :polarity :Affirmative,
-             :lexeme :waa,
-             :pos :Verb,
-             :person :Person3,
-             :mood :Indicative,
-             :tam :PreteritePerfect,
-             :number :Singular}
-    :terms [[:token],
-            ["wàà-r-é"]]
-    }
+     :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative they inflect regularly on the basis of a special negative stem ."
+     :pdgmType :VOther
+     :common {:vmorphClass :VStemIndic
+              :polarity :Affirmative,
+              :pos :Verb,
+              :mood :Indicative,
+              :number :Singular
+              :person :Person3,
+              :gender :Masc,
+              :stemClass :Monorad}
+     :terms [[:lexeme :tam :token :token-note-aux],
+             [:maa :AoristHabitual"màà-f-é" ""]
+             [:waa :AoristHabitual "wàà-f-é" ""]
+             [:maa :FutureProgressive "màà bə́-mèýrə̀" "bə́-mèýrə̀"]
+             [:waa :FutureProgressive "wàà bə́-wèýrə̀" "bə́-wèýrə̀"]
+             [:maa :FuturePunctual "mè-é-ttùw-é" ""]
+             [:waa :FuturePunctual "wè-é-ttùw-é" ""]
+             [:waa :PreteritePerfect "wàà-r-é" ""]]
+     }
     {:label "shinassha-VAffInfInflectMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :InfinitiveInflect
-    :common {:gender :Common,
+    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative they inflect regularly on the basis of a special negative stem ."
+    :pdgmType :VOther
+    :common {:vmorphClass :InfinitiveInflect
              :lexeme :maa,
              :polarity :Affirmative,
              :pos :Verb,
@@ -475,30 +268,45 @@
             ["mòósh"]]
     }
     {:label "shinassha-VAffInfinitiveMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Infinitive
-    :common {:gender :Common,
-             :lexeme :maa,
+    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative they inflect regularly on the basis of a special negative stem ."
+    :pdgmType :VOther
+    :common {:vmorphClass :InfinitiveMonoRad
              :polarity :Affirmative,
              :pos :Verb,
              :stemClass :Monorad}
-    :terms [[:token],
-            ["mòó ~ moowó"]]
+    :terms [[:lexeme :token],
+            [:maa "mòó ~ moowó"]
+            [:waa, "woowó"]]
     }
-    {:label "shinassha-VAffInfinitiveMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Infinitive
-    :common {:gender :Common,
-             :lexeme :waa,
-             :polarity :Affirmative,
-             :pos :Verb,
-             :stemClass :Monorad}
+    {:label "shinassha-VConj1SmplAffInfinitive"
+     :note "Lamberti1993b pp.136-202."
+     :pdgmType :VOther
+     :common {:vmorphClass :InfinitiveSimple
+               :polarity :Affirmative,
+              :pos :Verb}
+     :terms [[:conjClass :lexeme :token],
+             [:Conj1 :am "am-ó"]
+             [:Conj1 :woott "wots-ó"]
+             [:Conj2 :kutt "kut-ó"]
+             [:Conj2 :tuw "tuw-ó"]
+             [:Conj3 :massh "massh-ó"]
+             [:Conj3 :tool "tool-ó"]
+             [:Conj4 :aaniy "aaniy-ó"]
+             [:Conj4 :baziy "baziy-ó"]
+             [:Conj5 :bey "bey-ó"]
+             [:Conj5 :tippey "tippey-ó"]]
+     }
+    {:label "shinassha-VConj1SmplNegInfinitive-am"
+    :note "Lamberti1993b pp.136-202."
+    :pdgmType :VOther
+    :common {:vmorphClass :Infinitive
+             :complement :Simple,
+             :conjClass :Conj1,
+             :lexeme :am,
+             :polarity :Negative,
+             :pos :Verb}
     :terms [[:token],
-            ["woowó"]]
+            ["am-"]]
     }
     {:label "shinassha-VConj1CompAffDesidAorHab-am"
     :note "Lamberti1993b pp.136-202."
@@ -562,7 +370,6 @@
     :pdgmType :Finite
     :common {:complement :Compound,
              :conjClass :Conj1,
-             :gender :Common,
              :lexeme :et,
              :mood :Gerund,
              :polarity :Affirmative,
@@ -576,7 +383,6 @@
     :pdgmType :Finite
     :common {:complement :Compound,
              :conjClass :Conj1,
-             :gender :Common,
              :lexeme :miits,
              :mood :Gerund,
              :polarity :Affirmative,
@@ -1389,7 +1195,6 @@
     :pdgmType :Finite
     :common {:complement :Simple,
              :conjClass :Conj1,
-             :gender :Common,
              :lexeme :am,
              :mood :Gerund,
              :polarity :Affirmative,
@@ -1403,7 +1208,6 @@
     :pdgmType :Finite
     :common {:complement :Simple,
              :conjClass :Conj1,
-             :gender :Common,
              :lexeme :am,
              :mood :Gerund,
              :polarity :Affirmative,
@@ -1541,30 +1345,6 @@
             [:Plural :Person2 :Common "ít- àmò"],
             [:Plural :Person3 :Common "bó- àmò"]]
     }
-    {:label "shinassha-VConj1SmplAffInfinitive-am"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:complement :Simple,
-             :conjClass :Conj1,
-             :gender :Common,
-             :lexeme :am,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["am-ó"]]
-    }
-    {:label "shinassha-VConj1SmplAffInfinitive-woott"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:complement :Simple,
-             :conjClass :Conj1,
-             :gender :Common,
-             :lexeme :woott,
-            :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["wots-ó"]]
-    }
     {:label "shinassha-VConj1SmplAffIrrealPret-gargaar"
     :note "Lamberti1993b pp.136-202."
     :pdgmType :Finite
@@ -1675,7 +1455,6 @@
     :pdgmType :Finite
     :common {:complement :Simple,
              :conjClass :Conj1,
-             :gender :Common,
              :lexeme :am,
              :mood :Command,
              :polarity :Negative,
@@ -1789,7 +1568,6 @@
     :pdgmType :Finite
     :common {:complement :Simple,
              :conjClass :Conj1,
-             :gender :Common,
              :lexeme :am,
              :mood :Gerund,
              :polarity :Negative,
@@ -1834,18 +1612,6 @@
             [:Plural :Person1 :Common "àm-r-áts-ò"],
             [:Plural :Person2 :Common "àm-r-áts-ə́t"],
             [:Plural :Person3 :Common "àm-r-áts-nóó"]]
-    }
-    {:label "shinassha-VConj1SmplNegInfinitive-am"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:complement :Simple,
-             :conjClass :Conj1,
-             :gender :Common,
-             :lexeme :am,
-             :polarity :Negative,
-             :pos :Verb}
-    :terms [[:token],
-            ["am-"]]
     }
     {:label "shinassha-VConj1SmplNegIrrealPret-gargaar"
     :note "Lamberti1993b pp.136-202."
@@ -2011,29 +1777,6 @@
             [:Singular :Person2 "kùtt-í-ttùw-ì"],
             [:Plural :Person1 "kùtt-í-ttùw-ò"]]
     }
-    {:label "shinassha-VConj2AffInfinitive-kutt"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj2,
-             :gender :Common,
-             :lexeme :kutt,
-             :morphClass :Infinitive,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["kut-ó"]]
-    }
-    {:label "shinassha-VConj2AffInfinitive-tuw"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj2,
-             :gender :Common,
-             :lexeme :tuw,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["tuw-ó"]]
-    }
     {:label "shinassha-VConj3AffCommandImprtv-need"
     :note "Lamberti1993b pp.136-202."
     :pdgmType :Finite
@@ -2142,28 +1885,6 @@
             [:Plural :Person1 :Common "shà-è-r-ò"],
             [:Plural :Person2 :Common "shà-è-r-ə́t"],
             [:Plural :Person3 :Common "shà-è-r-nóó"]]
-    }
-    {:label "shinassha-VConj3AffInfinitive-massh"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj3,
-             :gender :Common,
-             :lexeme :massh,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["massh-ó"]]
-    }
-    {:label "shinassha-VConj3AffInfinitive-tool"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj3,
-             :gender :Common,
-             :lexeme :tool,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["tool-ó"]]
     }
     {:label "shinassha-VConj3NegIndicPretPerf-sha"
     :note "Lamberti1993b pp.136-202."
@@ -2277,28 +1998,6 @@
             [:Plural :Person2 :Common "kàssh-íí-r-ə́t"],
             [:Plural :Person3 :Common "kàssh-íí-r-nóó"]]
     }
-    {:label "shinassha-VConj4AffInfinitive-aaniy"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj4,
-             :gender :Common,
-             :lexeme :aaniy,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["aaniy-ó"]]
-    }
-    {:label "shinassha-VConj4AffInfinitive-baziy"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj4,
-             :gender :Common,
-             :lexeme :baziy,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["baziy-ó"]]
-    }
     {:label "shinassha-VConj4NegIndicPretPerf-kasshiy"
     :note "Lamberti1993b pp.136-202."
     :pdgmType :Finite
@@ -2395,28 +2094,6 @@
             [:Plural :Person2 :Common "shúw-éé-r-ə́t"],
             [:Plural :Person3 :Common "shúw-éé-r-nóó"]]
     }
-    {:label "shinassha-VConj5AffInfinitive-bey"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj5,
-             :gender :Common,
-             :lexeme :bey,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["bey-ó"]]
-    }
-    {:label "shinassha-VConj5AffInfinitive-tippey"
-    :note "Lamberti1993b pp.136-202."
-    :pdgmType :Infinitive
-    :common {:conjClass :Conj5,
-             :gender :Common,
-             :lexeme :tippey,
-             :polarity :Affirmative,
-             :pos :Verb}
-    :terms [[:token],
-            ["tippey-ó"]]
-    }
     {:label "shinassha-VConj5NegIndicPretPerf-shuwey"
     :note "Lamberti1993b pp.136-202."
     :pdgmType :Finite
@@ -2494,70 +2171,22 @@
             [:Plural :Person3 :Common "àm-áá-k-" "nóó ~ nó-wá"]]
     }
     {:label "shinassha-VNegStemMonorad-bey"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
+     :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
+            slight inflectional idiosyncracies in the affirmative. In the negative they inflect
             regularly on the basis of a special negative stem ."
-    :pdgmType :Stem
-    :common {:gender :Common,
-             :lexeme :bey,
-             :polarity :Negative,
-             :pos :Verb,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["bèèr"]]
-    }
-    {:label "shinassha-VNegStemMonorad-gey"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Stem
-    :common {:gender :Common,
-             :lexeme :gey,
-             :polarity :Negative,
-             :pos :Verb,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["gèér"]]
-    }
-    {:label "shinassha-VNegStemMonorad-keew"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Stem
-    :common {:gender :Common,
-             :lexeme :keew,
-             :polarity :Negative,
-             :pos :Verb,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["kèèwə̀r"]]
-    }
-    {:label "shinassha-VNegStemMonorad-maa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Stem
-    :common {:gender :Common,
-             :lexeme :maa,
-             :polarity :Negative,
-             :pos :Verb,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["mààr"]]
-    }
-    {:label "shinassha-VNegStemMonorad-waa"
-    :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
-    :pdgmType :Stem
-    :common {:gender :Common,
-             :lexeme :waa,
-             :polarity :Negative,
-             :pos :Verb,
-             :stemClass :Monorad}
-    :terms [[:token],
-            ["wààr"]]
-    }
+     :pdgmType :VOther
+     :common {:vmorphClass :VNegStem
+              :gender :Common,
+              :polarity :Negative,
+              :pos :Verb,
+              :stemClass :Monorad}
+     :terms [[:lexeme :token],
+             [:bey "bèèr"]
+             [:gey, "gèér"]
+             [:keew, "kèèwə̀r"]
+             [:maa, "mààr"]
+             [:waa, "wààr"]]
+     }
     {:label "shinassha-VPresExist-fa"
     :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have
             only two tenses"
@@ -2700,8 +2329,9 @@
     }
     {:label "shinassha-VConj1SmplAffCommandImprtv-stem"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :IMPERATIVESUFF
-    :common {:gender :Common,
+    :pdgmType :VOther
+    :common {:vmorphClass :IMPERATIVESUFF1
+             :gender :Common,
              :polarity :Affirmative,
              :conjClass :Conj1,
              :pos :Verb,
@@ -2715,8 +2345,9 @@
     }
     {:label "shinassha-VConj1SmplNegCommandImprtv-stem"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :IMPERATIVESUFF
-    :common {:gender :Common,
+    :pdgmType :VOther
+    :common {:vmorphClass :IMPERATIVESUFF1
+             :gender :Common,
              :polarity :Negative,
              :conjClass :Conj1,
              :pos :Verb,
@@ -2730,8 +2361,9 @@
     }
     {:label "shinassha-VConj2AffCommandImprtv-stem2"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :IMPERATIVESUFF,
-    :common {:conjClass :Conj2,
+    :pdgmType :VOther
+    :common {:vmorphClass :IMPERATIVESUFF2
+             :conjClass :Conj2,
              :gender :Common,
              :mood :Command,
              :person :Person2,
@@ -2744,8 +2376,9 @@
     }
     {:label "shinassha-VConj3AffCommandImprtv-stem3"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :IMPERATIVESUFF
-    :common {:conjClass :Conj3,
+    :pdgmType :VOther
+    :common {:vmorphClass :IMPERATIVESUFF3
+             :conjClass :Conj3,
              :gender :Common,
              :mood :Command,
              :person :Person2,
@@ -2758,8 +2391,9 @@
     }
     {:label "shinassha-VConj4AffCommandImprtv-stem4"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :IMPERATIVESUFF
-    :common {:conjClass :Conj4,
+    :pdgmType :VOther
+    :common {:vmorphClass :IMPERATIVESUFF4
+             :conjClass :Conj4,
              :gender :Common,
              :mood :Command,
              :person :Person2,
@@ -2772,8 +2406,9 @@
     }
     {:label "shinassha-VConj5AffCommandImprtv-stem5"
     :note "Lamberti1993b pp.136-202."
-    :pdgmType :IMPERATIVESUFF
-    :common {:conjClass :Conj5,
+    :pdgmType :VOther
+    :common {:vmorphClass :IMPERATIVESUFF5
+             :conjClass :Conj5,
              :gender :Common,
              :mood :Command,
              :person :Person2,
@@ -2786,8 +2421,9 @@
     }
     {:label "shinassha-VDervStem"
     :note "Lamberti1993b pp. 126-136."
-    :pdgmType :DervStem
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DervStem
+             :pos :Verb}
     :terms [[:derivedStem :token],
             [:Benefactive "Verb + dek-"],
             [:Causative "-iy- ~ -ish- ~ -z- ~ -ts-passive"],
@@ -2796,8 +2432,9 @@
     }
     {:label "shinassha-VInflClass"
     :note "Lamberti1993b pp. 136. -138"
-    :pdgmType :InflClass
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :InflClass
+             :pos :Verb}
     :terms [[:conjClass :token :token-note],
             [:Conj1 "-Ø- ~ -ə- ~ -e-" " characterized by consonant gradations between indicative stem and imperative stem" "characterized by consonant gradations between indicative stem and imperative stem + -Ø- ~ -ə- ~ -e-"],
             [:Conj2 "-Ø- ~ -ə- ~ -i-  :  __" "__ + -Ø- ~ -ə- ~ -i-"],
@@ -2810,8 +2447,9 @@
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
             formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
             neg,and the neg aorHab"
-    :pdgmType :InterrSubjMarker
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :InterrSubjMarker
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-tá(á)"],
             [:Singular :Person2 :Common "-yá"],
@@ -2825,7 +2463,7 @@
     :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
             come from ja-,future/jussive from woott-. In some cases adjectives can be directly
             conjugated like verbs. Cf. also paradigm for fa- éxist."
-    :pdgmType :CopulaNegPres
+    :pdgmType :FiniteCopulaNegPres
     :common {:polarity :Negative,
              :pos :Verb,
              :tam :Present}
@@ -2840,8 +2478,9 @@
     }
     {:label "shinassha-VSubjSuff"
     :note "Lamberti1993b pp. 93f"
-    :pdgmType :SubjSuff
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjSuff
+             :pos :Verb}
     :terms [[:mood :number :person :gender :token],
             [:Indicative :Singular :Person1 :Common "⊤"],
             [:Indicative :Singular :Person2 :Common "⊤"],
@@ -2860,8 +2499,9 @@
     }
     {:label "shinassha-VSubjSuffInterr"
     :note "Lamberti1993b pp. 95f"
-    :pdgmType :SubjSuffInterr
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjSuffInterr
+             :pos :Verb}
     :terms [[:mood :number :person :gender :token],
             [:Indicative :Singular :Person1 :Common "-tá(á)"],
             [:Indicative :Singular :Person2 :Common "-yá"],
