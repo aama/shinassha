@@ -76,7 +76,7 @@
                  :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
             slight inflectional idiosyncracies in the affirmative. In the negative the inflect
             regularly on the basis of a special negative stem ."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :maa,
                           :mood :Command,
@@ -93,7 +93,7 @@
                  :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
             slight inflectional idiosyncracies in the affirmative. In the negative the inflect
             regularly on the basis of a special negative stem ."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :waa,
                           :mood :Command,
@@ -111,7 +111,7 @@
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
             formed) non-iterrogative form. Special mention need be made only for the Jussive, 
             aff and neg,and the neg aorHab"
-                 :common {:vmorphclass :FiniteInterrogative
+                 :common {:vmorphClass :FiniteInterrogative
                           :lexeme :am,
                           :mood :Command,
                           :polarity :Affirmative,
@@ -132,7 +132,7 @@
                  :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
             slight inflectional idiosyncracies in the affirmative. In the negative the inflect
             regularly on the basis of a special negative stem ."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :maa,
                           :mood :Command,
                           :polarity :Affirmative,
@@ -150,7 +150,7 @@
                  :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
             slight inflectional idiosyncracies in the affirmative. In the negative the inflect
             regularly on the basis of a special negative stem ."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :waa,
                           :mood :Command,
                           :polarity :Affirmative,
@@ -166,7 +166,7 @@
                  }
                 {:label "shinassha-VAffConjConjMonorad-maa"
                  :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :maa,
                           :mood :ConjMood,
                           :polarity :Affirmative,
@@ -186,7 +186,7 @@
                  :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
             slight inflectional idiosyncracies in the affirmative. In the negative the inflect
             regularly on the basis of a special negative stem ."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :waa,
                           :mood :ConjMood,
                           :polarity :Affirmative,
@@ -291,7 +291,7 @@
                  }
                 {:label "shinassha-VConj1CompAffDesidAorHab-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -310,7 +310,7 @@
                  }
                 {:label "shinassha-VConj1CompAffDesidFutPunct-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -329,7 +329,7 @@
                  }
                 {:label "shinassha-VConj1CompAffDesidPretPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -348,7 +348,7 @@
                  }
                 {:label "shinassha-VConj1CompAffGerundImperfFut-et"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :et,
@@ -361,7 +361,7 @@
                  }
                 {:label "shinassha-VConj1CompAffGerundImperfPres-miits"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :miits,
@@ -374,7 +374,7 @@
                  }
                 {:label "shinassha-VConj1CompAffGerundImperfPret-miits"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :miits,
@@ -393,7 +393,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicAorIngr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -412,7 +412,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicAorProgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -431,7 +431,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicFutPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -450,7 +450,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicFutProgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -469,7 +469,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPlusPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -488,7 +488,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPresIngrA-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -507,7 +507,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPresIngrB-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -526,7 +526,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPresProgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -545,7 +545,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPretDubit-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -564,7 +564,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPretEgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -583,7 +583,7 @@
                  }
                 {:label "shinassha-VConj1CompAffIndicPretIngr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -602,7 +602,7 @@
                  }
                 {:label "shinassha-VConj1CompAffPotentialAorHab-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -621,7 +621,7 @@
                  }
                 {:label "shinassha-VConj1CompAffPotentialFutPunct-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -639,7 +639,7 @@
                  }
                 {:label "shinassha-VConj1CompAffPotentialFutPunct-tam"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -658,7 +658,7 @@
                  }
                 {:label "shinassha-VConj1CompAffPotentialPretPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -677,7 +677,7 @@
                  }
                 {:label "shinassha-VConj1CompAffSubjFut-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -696,7 +696,7 @@
                  }
                 {:label "shinassha-VConj1CompAffSubjProg-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -715,7 +715,7 @@
                  }
                 {:label "shinassha-VConj1CompNegDesidAorHab-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -734,7 +734,7 @@
                  }
                 {:label "shinassha-VConj1CompNegDesidPretPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -753,7 +753,7 @@
                  }
                 {:label "shinassha-VConj1CompNegDesidPretPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -772,7 +772,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicAorHab-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -791,7 +791,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicAorIngr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -810,7 +810,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicAorProgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -829,7 +829,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicFutPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -848,7 +848,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicFutProgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -867,7 +867,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicPlusPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -886,7 +886,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicPresIngrA-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -905,7 +905,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicPresIngrB-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -924,7 +924,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicPresProgr-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -943,7 +943,7 @@
                  }
                 {:label "shinassha-VConj1CompNegIndicPretDubit-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -962,7 +962,7 @@
                  }
                 {:label "shinassha-VConj1CompNegPotentialAorHab-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -981,7 +981,7 @@
                  }
                 {:label "shinassha-VConj1CompNegSubjFut-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1000,7 +1000,7 @@
                  }
                 {:label "shinassha-VConj1CompNegSubjProg-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Compound,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1019,7 +1019,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conj1,
@@ -1035,7 +1035,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-biits"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conj1,
@@ -1051,7 +1051,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-dek"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conj1,
@@ -1067,7 +1067,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-mash"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conj1,
@@ -1083,7 +1083,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-wots"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :polarity :Affirmative,
                           :conjClass :Conj1,
@@ -1099,7 +1099,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCommandJuss-et"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :et,
@@ -1116,7 +1116,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCondPres-im"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :im,
@@ -1135,7 +1135,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffCondPret-im"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :im,
@@ -1154,7 +1154,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffConjConj-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1173,7 +1173,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffGerundPerfFut-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1186,7 +1186,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffGerundPerfPres-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1199,7 +1199,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffGerundPerfPret-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1218,7 +1218,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIndicAorHab-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1237,7 +1237,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIndicAorPunct-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1256,7 +1256,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIndicAorPunct-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :tipp,
@@ -1271,7 +1271,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIndicFutPunct-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1290,7 +1290,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIndicPretPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1309,7 +1309,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIndicPretPerfB-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1328,7 +1328,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffIrrealPret-gargaar"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :gargaar,
@@ -1347,7 +1347,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffRelFut-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1363,7 +1363,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffRelPres-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1379,7 +1379,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffRelPret-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1395,7 +1395,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffSubjHabit-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1414,7 +1414,7 @@
                  }
                 {:label "shinassha-VConj1SmplAffSubjPret-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1433,7 +1433,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegCommandImprtv-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1452,7 +1452,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegCommandJuss-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1470,7 +1470,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegCondPres-im"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :im,
@@ -1489,7 +1489,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegConjAor-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1508,7 +1508,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegConjCond-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1527,7 +1527,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegConjPret-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1546,7 +1546,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegGerund-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1558,7 +1558,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegIndicAorPunct-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1577,7 +1577,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegIndicPretPerf-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1596,7 +1596,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegIrrealPret-gargaar"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :gargaar,
@@ -1615,7 +1615,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegRelPres-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1631,7 +1631,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegRelPret-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1647,7 +1647,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegSubjHabit-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1666,7 +1666,7 @@
                  }
                 {:label "shinassha-VConj1SmplNegSubjPret-am"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :complement :Simple,
                           :conjClass :Conj1,
                           :lexeme :am,
@@ -1685,7 +1685,7 @@
                  }
                 {:label "shinassha-VConj2AffCommandImprtv-kar"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :gender :Common,
                           :lexeme :kar,
@@ -1700,7 +1700,7 @@
                  }
                 {:label "shinassha-VConj2AffCommandImprtv-taf"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :gender :Common,
                           :lexeme :taf,
@@ -1715,7 +1715,7 @@
                  }
                 {:label "shinassha-VConj2AffConjConj-fall"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :gender :Common,
                           :lexeme :fall,
@@ -1730,7 +1730,7 @@
                  }
                 {:label "shinassha-VConj2AffIndicAorPunct-taf"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :gender :Common,
                           :lexeme :taf,
@@ -1745,7 +1745,7 @@
                  }
                 {:label "shinassha-VConj2AffIndicFutPunct-kutt"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj2,
                           :gender :Common,
                           :lexeme :kutt,
@@ -1760,7 +1760,7 @@
                  }
                 {:label "shinassha-VConj3AffCommandImprtv-need"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :gender :Common,
                           :lexeme :need,
@@ -1775,7 +1775,7 @@
                  }
                 {:label "shinassha-VConj3AffCommandImprtv-sha"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :gender :Common,
                           :lexeme :sha,
@@ -1790,7 +1790,7 @@
                  }
                 {:label "shinassha-VConj3AffCommandJuss-tsaaf"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :lexeme :tsaaf,
                           :mood :Command,
@@ -1806,7 +1806,7 @@
                  }
                 {:label "shinassha-VConj3AffConjConj-ja"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :gender :Common,
                           :lexeme :ja,
@@ -1821,7 +1821,7 @@
                  }
                 {:label "shinassha-VConj3AffIndicAorPunct-sha"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :gender :Common,
                           :lexeme :sha,
@@ -1836,7 +1836,7 @@
                  }
                 {:label "shinassha-VConj3AffIndicFutPunct-meecc"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :gender :Common,
                           :lexeme :meecc,
@@ -1851,7 +1851,7 @@
                  }
                 {:label "shinassha-VConj3AffIndicPretPerf-sha"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :lexeme :sha,
                           :mood :Indicative,
@@ -1869,7 +1869,7 @@
                  }
                 {:label "shinassha-VConj3NegIndicPretPerf-sha"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj3,
                           :lexeme :sha,
                           :mood :Indicative,
@@ -1887,7 +1887,7 @@
                  }
                 {:label "shinassha-VConj4AffCommandImprtv-baziy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :gender :Common,
                           :lexeme :baziy,
@@ -1902,7 +1902,7 @@
                  }
                 {:label "shinassha-VConj4AffCommandImprtv-tsiiliy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :gender :Common,
                           :lexeme :tsiiliy,
@@ -1917,7 +1917,7 @@
                  }
                 {:label "shinassha-VConj4AffCommandJuss-finiy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :lexeme :fiiniy,
                           :mood :Command,
@@ -1933,7 +1933,7 @@
                  }
                 {:label "shinassha-VConj4AffIndicAorPunct-kasshiy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :gender :Common,
                           :lexeme :kasshiy,
@@ -1948,7 +1948,7 @@
                  }
                 {:label "shinassha-VConj4AffIndicFutPunct-kasshiy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :gender :Common,
                           :lexeme :kasshiy,
@@ -1963,7 +1963,7 @@
                  }
                 {:label "shinassha-VConj4AffIndicPretPerf-kasshiy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :lexeme :kasshiy,
                           :mood :Indicative,
@@ -1981,7 +1981,7 @@
                  }
                 {:label "shinassha-VConj4NegIndicPretPerf-kasshiy"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj4,
                           :lexeme :kasshiy,
                           :mood :Indicative,
@@ -1999,7 +1999,7 @@
                  }
                 {:label "shinassha-VConj5AffCommandImprtv-meeccey"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj5,
                           :gender :Common,
                           :lexeme :meeccey,
@@ -2014,7 +2014,7 @@
                  }
                 {:label "shinassha-VConj5AffCommandImprtv-tsiiley"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj5,
                           :gender :Common,
                           :lexeme :tsiiley,
@@ -2029,7 +2029,7 @@
                  }
                 {:label "shinassha-VConj5AffIndicAorPunct-shuwey"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj5,
                           :gender :Common,
                           :lexeme :shuwey,
@@ -2044,7 +2044,7 @@
                  }
                 {:label "shinassha-VConj5AffIndicFutPunct-meeccey"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj5,
                           :gender :Common,
                           :lexeme :meeccey,
@@ -2059,7 +2059,7 @@
                  }
                 {:label "shinassha-VConj5AffIndicPretPerf-shuwey"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj5,
                           :lexeme :shuwey,
                           :mood :Indicative,
@@ -2077,7 +2077,7 @@
                  }
                 {:label "shinassha-VConj5NegIndicPretPerf-shuwey"
                  :note "Lamberti1993b pp.136-202."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :conjClass :Conj5,
                           :lexeme :shuwey,
                           :mood :Indicative,
@@ -2095,7 +2095,7 @@
                  }
                 {:label "shinassha-VConjExist-fa"
                  :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have only two tenses"
-                 :common {:vmorphclass :FiniteExistence
+                 :common {:vmorphClass :FiniteExistence
                           :lexeme :fa,
                           :pos :Verb,
                           :tam :ConjTns,
@@ -2114,7 +2114,7 @@
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
             formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
             neg,and the neg aorHab"
-                 :common {:vmorphclass :FiniteInterrogative
+                 :common {:vmorphClass :FiniteInterrogative
                           :lexeme :am,
                           :mood :Command,
                           :polarity :Negative,
@@ -2136,7 +2136,7 @@
             interrogative pronominal endings for the non-interrogative in the (otherwise fully
             formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
             neg,and the neg aorHab"
-                 :common {:vmorphclass :FiniteInterrogative
+                 :common {:vmorphClass :FiniteInterrogative
                           :lexeme :am,
                           :mood :Indicative,
                           :polarity :Negative,
@@ -2170,7 +2170,7 @@
                 {:label "shinassha-VPresExist-fa"
                  :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have
             only two tenses"
-                 :common {:vmorphclass :FiniteExistence
+                 :common {:vmorphClass :FiniteExistence
                           :lexeme :fa,
                           :pos :Verb,
                           :tam :Present,
@@ -2286,7 +2286,7 @@
                  :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
             come from ja-,future/jussive from woott-. In some cases adjectives can be directly
             conjugated like verbs. Cf. also paradigm for fa- éxist."
-                 :common {:vmorphclass :FiniteCopula
+                 :common {:vmorphClass :FiniteCopula
                           :polarity :Affirmative,
                           :pos :Verb,
                           :tam :Present,
@@ -2427,7 +2427,7 @@
                  :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
             come from ja-,future/jussive from woott-. In some cases adjectives can be directly
             conjugated like verbs. Cf. also paradigm for fa- éxist."
-                 :common {:vmorphclass :FiniteCopulaNegPres
+                 :common {:vmorphClass :FiniteCopulaNegPres
                           :polarity :Negative,
                           :pos :Verb,
                           :tam :Present}
