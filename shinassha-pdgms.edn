@@ -2,26 +2,26 @@
  :lang :shinassha
  :subfamily "Northern Omotic Kafa-Gimojan Kafa"
  :sgpref "shn"
- :datasource "Lamberti1993b"
+ :datasource "Lamberti1993b; abbrev. L93"
  :geodemoURL "http://www.ethnologue.com/language/bwo"
  :geodemoTXT "Varieties and subdialects of the Omotic language Shinassha are spoken in Ethiopia, 'Benishangul-Gumuz region: Metekel zone, near Blue Nile river'; approx 37,500 speakers."
  :schemata {:stemClass [:Monorad ],
- :lexeme [:aaniy :am :baziy :bey :biits :dek :et :fa :fall :fiiniy :gargaar :gey :im :ja :kar :kasshiy :keew :kutt :maa :mash :massh :meecc :meeccey :miits :need :sha :shuwey :taf :tipp :tippey :tool :tsaaf :tsiiley :tsiiliy :tuw :waa :woott :wots],
- :case [:Ablative :Benefactive :Comitative :Dative :Directive :Locative],
- :complement [:Compound :Simple],
- :conjClass [:Conj1 :Conj2 :Conj3 :Conj4 :Conj5],
- :derivedStem [:Benefactive :Causative :Completative :Iterative],
- :gender [:Common :Fem :Masc],
- :mood [:Command :Conditional :ConjMood :Desiderative :Gerund :Indicative :Irrealis :Jussive :Potential :Relative :Subjunctive],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :proClass [:IndepCase :Independent :PossAdj :PossNoun :Subject],
- :tam [:Aorist :AoristHabitual :AoristIngressive :AoristProgressive :AoristPunctual :Conditional :ConjTns :Future :FuturePerfect :FutureProgressive :FuturePunctual :Habitual :Imperative :ImperfectFuture :ImperfectPresent :ImperfectPreterite :Jussive :PerfectFuture :PerfectPresent :PerfectPreterite :Pluperfect :Present :PresentIngressiveA :PresentIngressiveB :PresentProgressive :Preterite :PreteriteDubitative :PreteriteEgressive :PreteriteIngressive :PreteritePerfect :PreteritePerfectB :Progressive],
- :vmorphClass [:Copula :DervStem :Existence :Infinitive :InfinitiveInflect :InflClass :InterrSubjMarker :Interrogative :Stem :SubjSuff :SubjSuffInterr :Finite]
- }
+            :lexeme [:aaniy :am :baziy :bey :biits :dek :et :fa :fall :fiiniy :gargaar :gey :im :ja :kar :kasshiy :keew :kutt :maa :mash :massh :meecc :meeccey :miits :need :sha :shuwey :taf :tipp :tippey :tool :tsaaf :tsiiley :tsiiliy :tuw :waa :woott :wots],
+            :case [:Ablative :Benefactive :Comitative :Dative :Directive :Locative],
+            :complement [:Compound :Simple],
+            :conjClass [:Conj1 :Conj2 :Conj3 :Conj4 :Conj5],
+            :derivedStem [:Benefactive :Causative :Completative :Iterative],
+            :gender [:Common :Fem :Masc],
+            :mood [:Command :Conditional :ConjMood :Desiderative :Gerund :Indicative :Irrealis :Jussive :Potential :Relative :Subjunctive],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :proClass [:IndepCase :Independent :PossAdj :PossNoun :Subject],
+            :tam [:Aorist :AoristHabitual :AoristIngressive :AoristProgressive :AoristPunctual :Conditional :ConjTns :Future :FuturePerfect :FutureProgressive :FuturePunctual :Habitual :Imperative :ImperfectFuture :ImperfectPresent :ImperfectPreterite :Jussive :PerfectFuture :PerfectPresent :PerfectPreterite :Pluperfect :Present :PresentIngressiveA :PresentIngressiveB :PresentProgressive :Preterite :PreteriteDubitative :PreteriteEgressive :PreteriteIngressive :PreteritePerfect :PreteritePerfectB :Progressive],
+            :vmorphClass [:Copula :DervStem :Existence :Infinitive :InfinitiveInflect :InflClass :InterrSubjMarker :Interrogative :Stem :SubjSuff :SubjSuffInterr :Finite]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:case :complement :derivedStem :mode :polarity :pos :proClass :tam :vClass],
           :inflClass [:conjClass],
@@ -73,9 +73,7 @@
           :aaniy {:lemma "ààníy-", :gloss "resist", :conjClass :Conj4, :pos :Verb}}
  :termclusters [
                 {:label "shinassha-VAffCommandImprtvMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :maa,
@@ -90,9 +88,7 @@
                          [:Plural "mòòr"]]
                  }
                 {:label "shinassha-VAffCommandImprtvMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :waa,
@@ -107,10 +103,7 @@
                          [:Plural "wòòr"]]
                  }
                 {:label "shinassha-VAffCommandJussInterrogative-am"
-                 :note "Lamberti1993b p.200-202. Interrogative forms are made by substituting the
-            interrogative pronominal endings for the non-interrogative in the (otherwise fully
-            formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
-            neg,and the neg aorHab"
+                 :note "L93p.200-202 :: Interrogative forms are made by substituting the interrogative pronominal endings for the non-interrogative in the (otherwise fully formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and neg,and the neg aorHab"
                  :common {:lexeme :am,
                           :mood :Command,
                           :polarity :Affirmative,
@@ -128,9 +121,7 @@
                          [:Plural :Person3 :Common "àm-nó"]]
                  }
                 {:label "shinassha-VAffCommandJussMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :lexeme :maa,
                           :mood :Command,
@@ -146,9 +137,7 @@
                          [:Plural :Person3 :Common "mòò-nó"]]
                  }
                 {:label "shinassha-VAffCommandJussMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :lexeme :waa,
                           :mood :Command,
@@ -164,7 +153,7 @@
                          [:Plural :Person3 :Common "wòò-nó"]]
                  }
                 {:label "shinassha-VAffConjConjMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :lexeme :maa,
                           :mood :ConjMood,
@@ -182,9 +171,7 @@
                          [:Plural :Person3 :Common "bó-mmàà"]]
                  }
                 {:label "shinassha-VAffConjConjMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :lexeme :waa,
                           :mood :ConjMood,
@@ -202,9 +189,7 @@
                          [:Plural :Person3 :Common "bó-wàà"]]
                  }
                 {:label "shinassha-VAffGerundImperfFutMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :maa,
@@ -217,7 +202,7 @@
                          ["maa féérə̀" "féérə̀"]]
                  }
                 {:label "shinassha-VAffGerundImperfFutMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :waa,
@@ -231,9 +216,7 @@
                          ["waa féérə̀" "féérə̀"]]
                  }
                 {:label "shinassha-VAffGerundImperfPretMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -248,9 +231,7 @@
                          ["maa féétts-àátə̀" "féétts-àátə̀"]]
                  }
                 {:label "shinassha-VAffGerundImperfPretMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -265,9 +246,7 @@
                          ["waa féétts-àátə̀" "féétts-àátə̀"]]
                  }
                 {:label "shinassha-VAffGerundPerfFutMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :maa,
@@ -280,9 +259,7 @@
                          ["màà-rə̀"]]
                  }
                 {:label "shinassha-VAffGerundPerfFutMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :lexeme :waa,
@@ -295,9 +272,7 @@
                          ["wàà-rə̀"]]
                  }
                 {:label "shinassha-VAffGerundPerfPretMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -312,9 +287,7 @@
                          ["màà-tə́̀̀"]]
                  }
                 {:label "shinassha-VAffGerundPerfPretMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -329,9 +302,7 @@
                          ["wàà-tə́̀̀"]]
                  }
                 {:label "shinassha-VAffIndicAorHabMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -346,9 +317,7 @@
                          ["màà-f-é"]]
                  }
                 {:label "shinassha-VAffIndicAorHabMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -363,9 +332,7 @@
                          ["wàà-f-é"]]
                  }
                 {:label "shinassha-VAffIndicFutProgrMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -380,9 +347,7 @@
                          ["màà bə́-mèýrə̀" "bə́-mèýrə̀"]]
                  }
                 {:label "shinassha-VAffIndicFutProgrMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -397,9 +362,7 @@
                          ["wàà bə́-wèýrə̀" "bə́-wèýrə̀"]]
                  }
                 {:label "shinassha-VAffIndicFutPunctMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -414,9 +377,7 @@
                          ["mè-é-ttùw-é"]]
                  }
                 {:label "shinassha-VAffIndicFutPunctMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -431,9 +392,7 @@
                          ["wè-é-ttùw-é"]]
                  }
                 {:label "shinassha-VAffIndicPretPerfMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:vmorphClass :Finite,
                           :gender :Masc,
                           :stemClass :Monorad,
@@ -448,9 +407,7 @@
                          ["wàà-r-é"]]
                  }
                 {:label "shinassha-VAffInfInflectMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:gender :Common,
                           :lexeme :maa,
                           :vmorphClass :InfinitiveInflect,
@@ -461,9 +418,7 @@
                          ["mòósh"]]
                  }
                 {:label "shinassha-VAffInfinitiveMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:gender :Common,
                           :lexeme :maa,
                           :vmorphClass :Infinitive,
@@ -474,9 +429,7 @@
                          ["mòó ~ moowó"]]
                  }
                 {:label "shinassha-VAffInfinitiveMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem ."
                  :common {:gender :Common,
                           :lexeme :waa,
                           :vmorphClass :Infinitive,
@@ -487,7 +440,7 @@
                          ["woowó"]]
                  }
                 {:label "shinassha-VConj1CompAffDesidAorHab-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202."
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -506,7 +459,7 @@
                          [:Plural :Person3 :Common "amó, gèé-ə̀f-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffDesidFutPunct-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -525,7 +478,7 @@
                          [:Plural :Person3 :Common "amó, gèé-ttùw-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffDesidPretPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -544,7 +497,7 @@
                          [:Plural :Person3 :Common "amó, gèé-ə̀r-nóó, ~ bó-gèé"]]
                  }
                 {:label "shinassha-VConj1CompAffGerundImperfFut-et"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -558,7 +511,7 @@
                          ["érrə̀-"]]
                  }
                 {:label "shinassha-VConj1CompAffGerundImperfPres-miits"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -572,7 +525,7 @@
                          ["mììc-"]]
                  }
                 {:label "shinassha-VConj1CompAffGerundImperfPret-miits"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -591,7 +544,7 @@
                          [:Plural :Person3 :Common "mììts'-, féétts-ə̀tə́/-ə̀"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicAorIngr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -610,7 +563,7 @@
                          [:Plural :Person3 :Common "amóósh, jàmmàr-è-r-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicAorProgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -629,7 +582,7 @@
                          [:Plural :Person3 :Common "amòòká, bó-fá'ò"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicFutPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -648,7 +601,7 @@
                          [:Plural :Person3 :Common "àm-ə̀r-nóó, bú-wòòttít"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicFutProgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -667,7 +620,7 @@
                          [:Plural :Person3 :Common "àmáá, bó-'àmìírə̀, bú-wòòttít"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPlusPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -686,7 +639,7 @@
                          [:Plural :Person3 :Common "àmmə̀tə́, bó-jà'à"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPresIngrA-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -705,7 +658,7 @@
                          [:Plural :Person3 :Common "amóóshá, bó-'éttìírə̀"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPresIngrB-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -724,7 +677,7 @@
                          [:Plural :Person3 :Common "amóósh, tùúr-áts-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPresProgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -743,7 +696,7 @@
                          [:Plural :Person3 :Common "àmáá, bó-'àmìírə̀"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPretDubit-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -762,7 +715,7 @@
                          [:Plural :Person3 :Common "àm-ə̀r-nóó, àrrèfé"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPretEgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -781,7 +734,7 @@
                          [:Plural :Person3 :Common "' àmó, èèkə̀r-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffIndicPretIngr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -800,7 +753,7 @@
                          [:Plural :Person3 :Common "' àmó, bó-jàmmàr"]]
                  }
                 {:label "shinassha-VConj1CompAffPotentialAorHab-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -819,7 +772,7 @@
                          [:Plural :Person3 :Common "amó, fàllə̀-ə̀f-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffPotentialFutPunct-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -837,7 +790,7 @@
                          [:Plural :Person1 :Common]]
                  }
                 {:label "shinassha-VConj1CompAffPotentialFutPunct-tam"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -856,7 +809,7 @@
                          [:Plural :Person3 :Common "amó, fàll-í-ttùw-nóó"]]
                  }
                 {:label "shinassha-VConj1CompAffPotentialPretPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -875,7 +828,7 @@
                          [:Plural :Person3 :Common "amó, fàllə̀-ə̀r-nóó, ~ bó-fàllə̀"]]
                  }
                 {:label "shinassha-VConj1CompAffSubjFut-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -894,7 +847,7 @@
                          [:Plural :Person3 :Common "boosh amma, bo-`ammetti"]]
                  }
                 {:label "shinassha-VConj1CompAffSubjProg-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -913,7 +866,7 @@
                          [:Plural :Person3 :Common "boosh amma, bo-`amiirə"]]
                  }
                 {:label "shinassha-VConj1CompNegDesidAorHab-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -932,7 +885,7 @@
                          [:Plural :Person3 :Common "amó, gèèr-áá-k-nóó"]]
                  }
                 {:label "shinassha-VConj1CompNegDesidPretPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -951,7 +904,7 @@
                          [:Plural :Person3 :Common "amó, gèèr-áts-nóó"]]
                  }
                 {:label "shinassha-VConj1CompNegDesidPretPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -970,7 +923,7 @@
                          [:Plural :Person3 :Common "amó, fàll-áts-nóó, ~ bó-mààwò"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicAorHab-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -989,7 +942,7 @@
                          [:Plural :Person3 :Common "àm-áá-k-, nóó"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicAorIngr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1008,7 +961,7 @@
                          [:Plural :Person3 :Common "amó(ósh), jàmmàr-áts-è-r-áts-nóó"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicAorProgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1027,7 +980,7 @@
                          [:Plural :Person3 :Common "amóó-k-ààlí, bó-fá'ò"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicFutPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1046,7 +999,7 @@
                          [:Plural :Person3 :Common "àm-ə̀áts-nóó, bú-wòòttít"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicFutProgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1065,7 +1018,7 @@
                          [:Plural :Person3 :Common "àmàà-lí, bó-'àmìírə̀, bú-wòòttít"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicPlusPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1084,7 +1037,7 @@
                          [:Plural :Person3 :Common "àmmə̀tə́, jà'àr-áts-nóó"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicPresIngrA-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1103,7 +1056,7 @@
                          [:Plural :Person3 :Common "amóóshá-lí, bó-'éttìírə̀"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicPresIngrB-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1122,7 +1075,7 @@
                          [:Plural :Person3 :Common "amóósh, tùúrnóó"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicPresProgr-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1141,7 +1094,7 @@
                          [:Plural :Person3 :Common "àmáá-lí, bó-'àmìírə̀"]]
                  }
                 {:label "shinassha-VConj1CompNegIndicPretDubit-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1160,7 +1113,7 @@
                          [:Plural :Person3 :Common "àm-áts-nóó, àrrèfé"]]
                  }
                 {:label "shinassha-VConj1CompNegPotentialAorHab-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1179,7 +1132,7 @@
                          [:Plural :Person3 :Common "amó, fàll-áá-k-nóó, ~ mààw-ə̀f-nóó"]]
                  }
                 {:label "shinassha-VConj1CompNegSubjFut-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1198,7 +1151,7 @@
                          [:Plural :Person3 :Common "boosh ammaa-li, bo-`ammettə"]]
                  }
                 {:label "shinassha-VConj1CompNegSubjProg-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Compound,
                           :conjClass :Conj1,
@@ -1217,7 +1170,7 @@
                          [:Plural :Person3 :Common "boosh ammaa-li, bo-`amiirə"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1233,7 +1186,7 @@
                          [:Plural "àm-ér"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-biits"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1249,7 +1202,7 @@
                          [:Plural "bììsh-ér"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-dek"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1265,7 +1218,7 @@
                          [:Plural "dé-ér"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-mash"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1281,7 +1234,7 @@
                          [:Plural "máy-ér"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-wots"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -1297,7 +1250,7 @@
                          [:Plural "wóc-èr"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandJuss-et"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1314,7 +1267,7 @@
                          [:Plural :Person3 :Common "ér-nó"]]
                  }
                 {:label "shinassha-VConj1SmplAffCondPres-im"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1333,7 +1286,7 @@
                          [:Plural :Person3 :Common "ímm-àànk-ə̀nóó"]]
                  }
                 {:label "shinassha-VConj1SmplAffCondPret-im"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1352,7 +1305,7 @@
                          [:Plural :Person3 :Common "bó-`ímm-àànkó"]]
                  }
                 {:label "shinassha-VConj1SmplAffConjConj-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1371,7 +1324,7 @@
                          [:Plural :Person3 :Common "bó-àm"]]
                  }
                 {:label "shinassha-VConj1SmplAffGerundPerfFut-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1385,7 +1338,7 @@
                          ["àmm-ə́-rə̀"]]
                  }
                 {:label "shinassha-VConj1SmplAffGerundPerfPres-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1399,7 +1352,7 @@
                          ["àmm-ə́r-nì"]]
                  }
                 {:label "shinassha-VConj1SmplAffGerundPerfPret-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1418,7 +1371,7 @@
                          [:Plural :Person3 :Common "àmmə̀tə́"]]
                  }
                 {:label "shinassha-VConj1SmplAffIndicAorHab-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1437,7 +1390,7 @@
                          [:Plural :Person3 :Common "àm-ə̀f-nóó"]]
                  }
                 {:label "shinassha-VConj1SmplAffIndicAorPunct-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1456,7 +1409,7 @@
                          [:Plural :Person3 :Common "bó-àmfó"]]
                  }
                 {:label "shinassha-VConj1SmplAffIndicAorPunct-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1471,7 +1424,7 @@
                          [:Plural :Person1 :Common "nò-típp-ə̀-fó"]]
                  }
                 {:label "shinassha-VConj1SmplAffIndicFutPunct-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1490,7 +1443,7 @@
                          [:Plural :Person3 :Common "àm-m-é-ttùw-nóó"]]
                  }
                 {:label "shinassha-VConj1SmplAffIndicPretPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1509,7 +1462,7 @@
                          [:Plural :Person3 :Common "àm-ə̀r-nóó"]]
                  }
                 {:label "shinassha-VConj1SmplAffIndicPretPerfB-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1528,7 +1481,7 @@
                          [:Plural :Person3 :Common "bó- àmò"]]
                  }
                 {:label "shinassha-VConj1SmplAffInfinitive-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:complement :Simple,
                           :conjClass :Conj1,
                           :gender :Common,
@@ -1540,7 +1493,7 @@
                          ["am-ó"]]
                  }
                 {:label "shinassha-VConj1SmplAffInfinitive-woott"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:complement :Simple,
                           :conjClass :Conj1,
                           :gender :Common,
@@ -1552,7 +1505,7 @@
                          ["wots-ó"]]
                  }
                 {:label "shinassha-VConj1SmplAffIrrealPret-gargaar"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1571,7 +1524,7 @@
                          [:Plural :Person3 :Common "gàrgààr-nóó, wóót"]]
                  }
                 {:label "shinassha-VConj1SmplAffRelFut-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1587,7 +1540,7 @@
                          [:Plural :Common "am-ettuwoótsí"]]
                  }
                 {:label "shinassha-VConj1SmplAffRelPres-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1603,7 +1556,7 @@
                          [:Plural :Common "am-iruwoótsí"]]
                  }
                 {:label "shinassha-VConj1SmplAffRelPret-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1619,7 +1572,7 @@
                          [:Plural :Common "am-tsúwoótsí"]]
                  }
                 {:label "shinassha-VConj1SmplAffSubjHabit-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1638,7 +1591,7 @@
                          [:Plural :Person3 :Common "boosh amfənoo"]]
                  }
                 {:label "shinassha-VConj1SmplAffSubjPret-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1657,7 +1610,7 @@
                          [:Plural :Person3 :Common "boosh amərnoo"]]
                  }
                 {:label "shinassha-VConj1SmplNegCommandImprtv-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1677,7 +1630,7 @@
                          [:Plural :Person3 :Common "àm-, k'ày-nó"]]
                  }
                 {:label "shinassha-VConj1SmplNegCommandJuss-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1695,7 +1648,7 @@
                          [:Plural :Person3 :Common]]
                  }
                 {:label "shinassha-VConj1SmplNegCondPres-im"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1714,7 +1667,7 @@
                          [:Plural :Person3 :Common "ímm-àáw-ùnk-ə̀nóó"]]
                  }
                 {:label "shinassha-VConj1SmplNegConjAor-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1733,7 +1686,7 @@
                          [:Plural :Person3 :Common "bó-àmàáwò"]]
                  }
                 {:label "shinassha-VConj1SmplNegConjCond-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1752,7 +1705,7 @@
                          [:Plural :Person3 :Common "am-ó, bó-ká'z-, -áál ~ -ínkè"]]
                  }
                 {:label "shinassha-VConj1SmplNegConjPret-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1771,7 +1724,7 @@
                          [:Plural :Person3 :Common "bó-amó-kázò"]]
                  }
                 {:label "shinassha-VConj1SmplNegGerund-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1784,7 +1737,7 @@
                          ["ámm-aaniye"]]
                  }
                 {:label "shinassha-VConj1SmplNegIndicAorPunct-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1803,7 +1756,7 @@
                          [:Plural :Person3 :Common "àm-áts-nóó"]]
                  }
                 {:label "shinassha-VConj1SmplNegIndicPretPerf-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1822,7 +1775,7 @@
                          [:Plural :Person3 :Common "àm-r-áts-nóó"]]
                  }
                 {:label "shinassha-VConj1SmplNegInfinitive-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:complement :Simple,
                           :conjClass :Conj1,
                           :gender :Common,
@@ -1834,7 +1787,7 @@
                          ["am-"]]
                  }
                 {:label "shinassha-VConj1SmplNegIrrealPret-gargaar"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1853,7 +1806,7 @@
                          [:Plural :Person3 :Common "gàrgààr-èr-áts-nóó, wòòt"]]
                  }
                 {:label "shinassha-VConj1SmplNegRelPres-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1869,7 +1822,7 @@
                          [:Plural :Common "am-ər-aaw-ots-i"]]
                  }
                 {:label "shinassha-VConj1SmplNegRelPret-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1885,7 +1838,7 @@
                          [:Plural :Common "am-ər-aats-ots-i"]]
                  }
                 {:label "shinassha-VConj1SmplNegSubjHabit-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1904,7 +1857,7 @@
                          [:Plural :Person3 :Common "boosh am-aak-noo/ am-aaki itna"]]
                  }
                 {:label "shinassha-VConj1SmplNegSubjPret-am"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :complement :Simple,
                           :conjClass :Conj1,
@@ -1923,7 +1876,7 @@
                          [:Plural :Person3 :Common "boosh am-ats-te"]]
                  }
                 {:label "shinassha-VConj2AffCommandImprtv-kar"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1938,7 +1891,7 @@
                          [:Plural "kàr-ùwér"]]
                  }
                 {:label "shinassha-VConj2AffCommandImprtv-taf"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1953,7 +1906,7 @@
                          [:Plural "tàf-ùwér"]]
                  }
                 {:label "shinassha-VConj2AffConjConj-fall"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1968,7 +1921,7 @@
                          [:Plural :Person1 "nò-fàllə"]]
                  }
                 {:label "shinassha-VConj2AffIndicAorPunct-taf"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1983,7 +1936,7 @@
                          [:Plural :Person1 "nò-t`àf-ə̀-fó"]]
                  }
                 {:label "shinassha-VConj2AffIndicFutPunct-kutt"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -1998,7 +1951,7 @@
                          [:Plural :Person1 "kùtt-í-ttùw-ò"]]
                  }
                 {:label "shinassha-VConj2AffInfinitive-kutt"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj2,
                           :gender :Common,
                           :lexeme :kutt,
@@ -2009,7 +1962,7 @@
                          ["kut-ó"]]
                  }
                 {:label "shinassha-VConj2AffInfinitive-tuw"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj2,
                           :gender :Common,
                           :lexeme :tuw,
@@ -2020,7 +1973,7 @@
                          ["tuw-ó"]]
                  }
                 {:label "shinassha-VConj3AffCommandImprtv-need"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2035,7 +1988,7 @@
                          [:Plural "nèd-ór"]]
                  }
                 {:label "shinassha-VConj3AffCommandImprtv-sha"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2050,7 +2003,7 @@
                          [:Plural "shà-ór"]]
                  }
                 {:label "shinassha-VConj3AffCommandJuss-tsaaf"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :tsaaf,
@@ -2066,7 +2019,7 @@
                          [:Plural :Person3 :Common "tsààf-òòwnó"]]
                  }
                 {:label "shinassha-VConj3AffConjConj-ja"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2081,7 +2034,7 @@
                          [:Plural :Person1 "nò- jàà"]]
                  }
                 {:label "shinassha-VConj3AffIndicAorPunct-sha"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2096,7 +2049,7 @@
                          [:Plural :Person1 "nò-shà-è-fó"]]
                  }
                 {:label "shinassha-VConj3AffIndicFutPunct-meecc"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2111,7 +2064,7 @@
                          [:Plural :Person1 "mèècc-í-ttùw-ò"]]
                  }
                 {:label "shinassha-VConj3AffIndicPretPerf-sha"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :sha,
@@ -2129,7 +2082,7 @@
                          [:Plural :Person3 :Common "shà-è-r-nóó"]]
                  }
                 {:label "shinassha-VConj3AffInfinitive-massh"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj3,
                           :gender :Common,
                           :lexeme :massh,
@@ -2140,7 +2093,7 @@
                          ["massh-ó"]]
                  }
                 {:label "shinassha-VConj3AffInfinitive-tool"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj3,
                           :gender :Common,
                           :lexeme :tool,
@@ -2151,7 +2104,7 @@
                          ["tool-ó"]]
                  }
                 {:label "shinassha-VConj3NegIndicPretPerf-sha"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :lexeme :sha,
@@ -2169,7 +2122,7 @@
                          [:Plural :Person3 :Common "shà-è-r-áts-nóó"]]
                  }
                 {:label "shinassha-VConj4AffCommandImprtv-baziy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :gender :Common,
@@ -2184,7 +2137,7 @@
                          [:Plural "bàz-íí-wér"]]
                  }
                 {:label "shinassha-VConj4AffCommandImprtv-tsiiliy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :gender :Common,
@@ -2199,7 +2152,7 @@
                          [:Plural "tsíílí-íí-wér"]]
                  }
                 {:label "shinassha-VConj4AffCommandJuss-finiy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :lexeme :fiiniy,
@@ -2215,7 +2168,7 @@
                          [:Plural :Person3 :Common "finiyuno"]]
                  }
                 {:label "shinassha-VConj4AffIndicAorPunct-kasshiy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :gender :Common,
@@ -2230,7 +2183,7 @@
                          [:Plural :Person1 "nò-kàssh-íí-fó"]]
                  }
                 {:label "shinassha-VConj4AffIndicFutPunct-kasshiy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :gender :Common,
@@ -2245,7 +2198,7 @@
                          [:Plural :Person1 "kàssh-íí-ttùw-ò"]]
                  }
                 {:label "shinassha-VConj4AffIndicPretPerf-kasshiy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :lexeme :kasshiy,
@@ -2263,7 +2216,7 @@
                          [:Plural :Person3 :Common "kàssh-íí-r-nóó"]]
                  }
                 {:label "shinassha-VConj4AffInfinitive-aaniy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj4,
                           :gender :Common,
                           :lexeme :aaniy,
@@ -2274,7 +2227,7 @@
                          ["aaniy-ó"]]
                  }
                 {:label "shinassha-VConj4AffInfinitive-baziy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj4,
                           :gender :Common,
                           :lexeme :baziy,
@@ -2285,7 +2238,7 @@
                          ["baziy-ó"]]
                  }
                 {:label "shinassha-VConj4NegIndicPretPerf-kasshiy"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :lexeme :kasshiy,
@@ -2303,7 +2256,7 @@
                          [:Plural :Person3 :Common "kàssh-íí-r-áts-nóó"]]
                  }
                 {:label "shinassha-VConj5AffCommandImprtv-meeccey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :gender :Common,
@@ -2318,7 +2271,7 @@
                          [:Plural "mèècc-éé-wér"]]
                  }
                 {:label "shinassha-VConj5AffCommandImprtv-tsiiley"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :gender :Common,
@@ -2333,7 +2286,7 @@
                          [:Plural "tsííl-éé-wér"]]
                  }
                 {:label "shinassha-VConj5AffIndicAorPunct-shuwey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :gender :Common,
@@ -2348,7 +2301,7 @@
                          [:Plural :Person1 "nò-shúw-éé-fó"]]
                  }
                 {:label "shinassha-VConj5AffIndicFutPunct-meeccey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :gender :Common,
@@ -2363,7 +2316,7 @@
                          [:Plural :Person1 "mèècc-éé-ttùw-ò"]]
                  }
                 {:label "shinassha-VConj5AffIndicPretPerf-shuwey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :lexeme :shuwey,
@@ -2381,7 +2334,7 @@
                          [:Plural :Person3 :Common "shúw-éé-r-nóó"]]
                  }
                 {:label "shinassha-VConj5AffInfinitive-bey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj5,
                           :gender :Common,
                           :lexeme :bey,
@@ -2392,7 +2345,7 @@
                          ["bey-ó"]]
                  }
                 {:label "shinassha-VConj5AffInfinitive-tippey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:conjClass :Conj5,
                           :gender :Common,
                           :lexeme :tippey,
@@ -2403,7 +2356,7 @@
                          ["tippey-ó"]]
                  }
                 {:label "shinassha-VConj5NegIndicPretPerf-shuwey"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :lexeme :shuwey,
@@ -2421,7 +2374,7 @@
                          [:Plural :Person3 :Common "shúw-éé-r-áts-nóó"]]
                  }
                 {:label "shinassha-VConjExist-fa"
-                 :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have only two tenses"
+                 :note "L93pp.179-181 ::  fa- is an extremely defective verb and seems to have only two tenses"
                  :common {:lexeme :fa,
                           :pos :Verb,
                           :tam :ConjTns,
@@ -2436,10 +2389,7 @@
                          [:Plural :Person3 :Common "bó-fá-ò"]]
                  }
                 {:label "shinassha-VNegCommandJussInterrogative-am"
-                 :note "Lamberti1993b p.200-202. Interrogative forms are made by substituting the
-            interrogative pronominal endings for the non-interrogative in the (otherwise fully
-            formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
-            neg,and the neg aorHab"
+                 :note "L93p.200-202 :: Interrogative forms are made by substituting the interrogative pronominal endings for the non-interrogative in the (otherwise fully formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and neg,and the neg aorHab"
                  :common {:lexeme :am,
                           :mood :Command,
                           :polarity :Negative,
@@ -2457,10 +2407,7 @@
                          [:Plural :Person3 :Common "àmààl-(k)nó"]]
                  }
                 {:label "shinassha-VNegIndicAorHabInterrogative-am"
-                 :note "Lamberti1993b p.200-202. Interrogative forms are made by substituting the
-            interrogative pronominal endings for the non-interrogative in the (otherwise fully
-            formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
-            neg,and the neg aorHab"
+                 :note "L93p.200-202 :: Interrogative forms are made by substituting the interrogative pronominal endings for the non-interrogative in the (otherwise fully formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and neg,and the neg aorHab"
                  :common {:lexeme :am,
                           :mood :Indicative,
                           :polarity :Negative,
@@ -2476,9 +2423,7 @@
                          [:Plural :Person3 :Common "àm-áá-k-" "nóó ~ nó-wá"]]
                  }
                 {:label "shinassha-VNegStemMonorad-bey"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem "
                  :common {:gender :Common,
                           :lexeme :bey,
                           :vmorphClass :Stem,
@@ -2489,9 +2434,7 @@
                          ["bèèr"]]
                  }
                 {:label "shinassha-VNegStemMonorad-gey"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem "
                  :common {:gender :Common,
                           :lexeme :gey,
                           :vmorphClass :Stem,
@@ -2502,9 +2445,7 @@
                          ["gèér"]]
                  }
                 {:label "shinassha-VNegStemMonorad-keew"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem "
                  :common {:gender :Common,
                           :lexeme :keew,
                           :vmorphClass :Stem,
@@ -2515,9 +2456,7 @@
                          ["kèèwə̀r"]]
                  }
                 {:label "shinassha-VNegStemMonorad-maa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem "
                  :common {:gender :Common,
                           :lexeme :maa,
                           :vmorphClass :Stem,
@@ -2528,9 +2467,7 @@
                          ["mààr"]]
                  }
                 {:label "shinassha-VNegStemMonorad-waa"
-                 :note "Lamberti1993b pp.177-179;199-200. The verbs listed in the lexeme section all have
-            slight inflectional idiosyncracies in the affirmative. In the negative the inflect
-            regularly on the basis of a special negative stem ."
+                 :note "L93pp.177-179;199-200 :: The verbs listed in the lexeme section all have slight inflectional idiosyncracies in the affirmative. In the negative the inflect regularly on the basis of a special negative stem "
                  :common {:gender :Common,
                           :lexeme :waa,
                           :vmorphClass :Stem,
@@ -2541,8 +2478,7 @@
                          ["wààr"]]
                  }
                 {:label "shinassha-VPresExist-fa"
-                 :note "Lamberti1993b pp.179-181. fa- is an extremely defective verb and seems to have
-            only two tenses"
+                 :note "L93pp.179-181 :: fa- is an extremely defective verb and seems to have only two tenses"
                  :common {:lexeme :fa,
                           :pos :Verb,
                           :tam :Present,
@@ -2556,7 +2492,7 @@
                          [:Plural :Person2 :Common "fá-ə́tpres"]]
                  }
                 {:label "shinassha-PIndep"
-                 :note "Lamberti1993b pp. 88f"
+                 :note "L93pp.88f"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:number :person :gender :token],
@@ -2569,7 +2505,7 @@
                          [:Plural :Person3 :Common "bóó"]]
                  }
                 {:label "shinassha-PIndepCase"
-                 :note "Lamberti1993b pp. 89-90"
+                 :note "L93pp.89-90"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :IndepCase}
                  :terms [[:case :number :person :gender :token],
@@ -2615,7 +2551,7 @@
                          [:Locative :Plural :Person3 :Common "booyts"]]
                  }
                 {:label "shinassha-PPossAdj"
-                 :note "Lamberti1993b p. 82"
+                 :note "L93p.82"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossAdj}
                  :terms [[:number :person :gender :token],
@@ -2628,7 +2564,7 @@
                          [:Plural :Person3 :Common "bó"]]
                  }
                 {:label "shinassha-PPossNoun"
-                 :note "Lamberti1993b p. 83"
+                 :note "L93p.83"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :PossNoun}
                  :terms [[:number :person :gender :token],
@@ -2641,7 +2577,7 @@
                          [:Plural :Person3 :Common "bó-kká"]]
                  }
                 {:label "shinassha-PSubj"
-                 :note "Lamberti1993b p. 92"
+                 :note "L93p.92"
                  :common {             :pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Subject}
                  :terms [[:number :person :gender :token],
@@ -2654,9 +2590,7 @@
                          [:Plural :Person3 :Common "bó-"]]
                  }
                 {:label "shinassha-VAffPresCopula"
-                 :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
-            come from ja-,future/jussive from woott-. In some cases adjectives can be directly
-            conjugated like verbs. Cf. also paradigm for fa- éxist."
+                 :note "L93pp.202-209 :: Has only present positive and negative. Past tenses come from ja-,future/jussive from woott-. In some cases adjectives can be directly conjugated like verbs. Cf. also paradigm for fa- éxist"
                  :common {             :polarity :Affirmative,
                           :pos :Verb,
                           :tam :Present,
@@ -2671,7 +2605,7 @@
                          [:Plural :Person3 :Common "-nóó"]]
                  }
                 {:label "shinassha-VConj1SmplAffCommandImprtv-stem"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Affirmative,
@@ -2686,7 +2620,7 @@
                          [:Plural "-er"]]
                  }
                 {:label "shinassha-VConj1SmplNegCommandImprtv-stem"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :gender :Common,
                           :polarity :Negative,
@@ -2701,7 +2635,7 @@
                          [:Plural "-ér"]]
                  }
                 {:label "shinassha-VConj2AffCommandImprtv-stem2"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj2,
                           :gender :Common,
@@ -2715,7 +2649,7 @@
                          [:Plural "-uwér"]]
                  }
                 {:label "shinassha-VConj3AffCommandImprtv-stem3"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj3,
                           :gender :Common,
@@ -2729,7 +2663,7 @@
                          [:Plural "-ór"]]
                  }
                 {:label "shinassha-VConj4AffCommandImprtv-stem4"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj4,
                           :gender :Common,
@@ -2743,7 +2677,7 @@
                          [:Plural "-ii-wer"]]
                  }
                 {:label "shinassha-VConj5AffCommandImprtv-stem5"
-                 :note "Lamberti1993b pp.136-202."
+                 :note "L93pp.136-202"
                  :common {:vmorphClass :Finite,
                           :conjClass :Conj5,
                           :gender :Common,
@@ -2757,7 +2691,7 @@
                          [:Plural "-ee-wer"]]
                  }
                 {:label "shinassha-VDervStem"
-                 :note "Lamberti1993b pp. 126-136."
+                 :note "L93pp.126-136"
                  :common {             :pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derivedStem :token],
@@ -2767,7 +2701,7 @@
                          [:Iterative "[reduplication"]]
                  }
                 {:label "shinassha-VInflClass"
-                 :note "Lamberti1993b pp. 136. -138"
+                 :note "L93pp.136-138"
                  :common {             :pos :Verb,
                           :vmorphClass :InflClass}
                  :terms [[:conjClass :token :token-note],
@@ -2778,10 +2712,7 @@
                          [:Conj5 "-ey-  :  passive verbs" "passive verbs + -ey-"]]
                  }
                 {:label "shinassha-VInterrSubjMarker"
-                 :note "Lamberti1993b p.200-202. Interrogative forms are made by substituting the
-            interrogative pronominal endings for the non-interrogative in the (otherwise fully
-            formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and
-            neg,and the neg aorHab"
+                 :note "L93p.200-202 :: Interrogative forms are made by substituting the interrogative pronominal endings for the non-interrogative in the (otherwise fully formed) non-iterrogative form. Special mention need be made only for the Jussive,aff and neg,and the neg aorHab"
                  :common {             :pos :Verb,
                           :vmorphClass :InterrSubjMarker}
                  :terms [[:number :person :gender :token],
@@ -2794,9 +2725,7 @@
                          [:Plural :Person3 :Common "-nó(wá)"]]
                  }
                 {:label "shinassha-VNegPresCopula"
-                 :note "Lamberti1993b pp.202-209. Has only present positive and negative. Past tenses
-            come from ja-,future/jussive from woott-. In some cases adjectives can be directly
-            conjugated like verbs. Cf. also paradigm for fa- éxist."
+                 :note "L93pp.202-209 :: Has only present positive and negative. Past tenses come from ja-,future/jussive from woott-. In some cases adjectives can be directly conjugated like verbs. Cf. also paradigm for fa- éxist"
                  :common {             :polarity :Negative,
                           :pos :Verb,
                           :tam :Present,
@@ -2811,7 +2740,7 @@
                          [:Plural :Person3 :Common "-n-ààlí"]]
                  }
                 {:label "shinassha-VSubjSuff"
-                 :note "Lamberti1993b pp. 93f"
+                 :note "L93pp.93f"
                  :common {             :pos :Verb,
                           :vmorphClass :SubjSuff}
                  :terms [[:mood :number :person :gender :token],
@@ -2831,7 +2760,7 @@
                          [:Jussive :Plural :Person3 :Common "-nó"]]
                  }
                 {:label "shinassha-VSubjSuffInterr"
-                 :note "Lamberti1993b pp. 95f"
+                 :note "L93pp.95f"
                  :common {             :pos :Verb,
                           :vmorphClass :SubjSuffInterr}
                  :terms [[:mood :number :person :gender :token],
